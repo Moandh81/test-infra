@@ -3,3 +3,4 @@ dist: bionic
 jobs:
   script:
     python3 --version
+    pip3 install ansible
