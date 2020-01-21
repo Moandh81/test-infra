@@ -2,4 +2,4 @@ dist: bionic
 
 jobs:
   script:
-    python --version
+    python3 --version
