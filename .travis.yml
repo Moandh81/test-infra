@@ -3,7 +3,10 @@ dist: bionic
 jobs:
   script:
     python3 --version
+  script:
     pip3 install ansible
+  script:
     ansible --version
+  script:
     ansible -m ping localhost
     
