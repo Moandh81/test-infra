@@ -1,0 +1,5 @@
+dist: bionic
+
+jobs:
+  script:
+    echo "Hello world"
